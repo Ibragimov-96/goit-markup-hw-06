@@ -866,7 +866,7 @@ color:var(--title-text-color);
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;}
 
-
+.form-input:hover,
 .form-input:focus 
 {
   border-color: var(--accent-color);
@@ -899,7 +899,7 @@ border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
 resize: none;
 }
-
+.modal-textarea:hover,
 .modal-textarea:focus{
   color: #000000;
   border-color: var(--accent-color);
@@ -955,18 +955,14 @@ color: var(--primari-text-color);
   border: 2px solid #000;
   transition: border 250ms var(--cubik),
     background-color 250ms var(--cubik);}
-/* .input-terms:checked ~ .label > vector */
+
 .input-terms:checked + .label >.form-icon-vector{
   border: none;
   background-color: var(--accent-color);
 }
 
 
-.form-icon-vector:hover,
-.form-icon-vector:focus
-{
-  background-color: var(--accent-color);
-}
+
 
 .modal-button{
   display: block;
