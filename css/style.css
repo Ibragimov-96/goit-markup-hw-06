@@ -461,11 +461,15 @@ address {
 .contact-adress a:focus {
   color: var(--accent-color);
 }
+
+.address-list{
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .address-list li:not(:last-child) {
   margin-bottom: 9px;
 }
 footer {
-  
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -596,9 +600,11 @@ footer {
   color: var(--primari-white-color);
   text-transform: uppercase;
 }
-.subscribe-section{display: flex;
-gap: 12px;
-align-items: center;}
+.subscribe-section {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
 .subscribe .input {
   color: var(--primari-white-color);
   width: 358px;
@@ -811,7 +817,6 @@ header {
   right: 8px;
   width: 30px;
   height: 30px;
-  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -820,17 +825,20 @@ header {
   cursor: pointer;
   background-color: var(--primari-white-color);
   transition: fill 250ms var(--cubik);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  letter-spacing: 0.06em;
+  color: var(--primari-white-color);
 }
-.modal__btn:hover > .btn-icon
-
-{
- 
+.modal__btn:hover > .btn-icon {
   fill: var(--accent-color);
 }
 
 .btn-icon {
   fill: #000;
-  transition: fill 250ms var(--cubik)
+  transition: fill 250ms var(--cubik);
 }
 
 .btn-icon:hover,
@@ -935,7 +943,7 @@ header {
 
 .modal-checkbox {
   display: flex;
-  
+
   align-items: center;
   width: 423px;
   height: 24px;
@@ -945,7 +953,6 @@ header {
 
   line-height: 1.71;
   letter-spacing: 0.03em;
- 
 }
 .terms {
   font-weight: 400;
@@ -990,7 +997,7 @@ header {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-justify-content: center;
+  justify-content: center;
   letter-spacing: 0.03em;
 
   color: var(--primari-text-color);
